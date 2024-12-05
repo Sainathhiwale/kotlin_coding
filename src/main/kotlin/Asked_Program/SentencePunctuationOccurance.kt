@@ -30,4 +30,7 @@ filter { it.isNotEmpty() }:
 Removes any empty strings that might result from splitting.
 groupingBy { it }.eachCount():
 
-Groups the words and counts their occurrences.*/
+Groups the words and counts their occurrences.
+Punctuation Handling:
+The regular expression [^a-z\\s] ensures only alphabetic characters and spaces are kept.
+*/
