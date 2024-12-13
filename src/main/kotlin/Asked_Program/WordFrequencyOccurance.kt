@@ -1,7 +1,8 @@
 package Asked_Program
-
+// infosys and other company repeat this question
 fun main(args:Array<String>){
-    val sentence = "This is a test. This test is simple!"
+   // val sentence = "This is a test. This test is simple!"
+    val sentence = "This is android developer interview for sainath. Sainath is android developer. Interviewer is Siva\n"
     val frequencies = wordFrequencys(sentence)
     println(frequencies)
 
